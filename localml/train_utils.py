@@ -2,7 +2,7 @@ import torch
 import torchvision.transforms as transforms
 from copy import deepcopy
 
-from localml.torch_components import DogModel, generate_transformer
+from torch_components import DogModel, generate_transformer
 
 
 def train(model, optimizer, loss_function, train_loader, train_count):

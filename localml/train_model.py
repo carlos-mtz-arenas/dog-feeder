@@ -9,11 +9,13 @@ from torchvision.datasets import ImageFolder
 
 from torch.utils.data import DataLoader
 
-from localml.train_utils import train_model
-from localml.torch_components import generate_transformer, DogModel
+from train_utils import train_model
+from torch_components import generate_transformer, DogModel
+
+from os import path
 
 
-base_path = './images'
+base_path = path.abspath('./images')
 train_imgs = base_path + '/train'
 test_imgs = base_path + '/test'
 
