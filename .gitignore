@@ -1,6 +1,9 @@
 venv/
-.vscode/
 __pycache__/
+
+.vscode/
+.idea/
+
 *.pt
 *.pyc
 # packages info, generated locally
